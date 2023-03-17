@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+     <title> Prontuario Digital</title>
+     <meta charset = "UTF-8">
+     <link rel="stylesheet" type="text/css" href="css/menu02.css">    
+     <link rel="stylesheet" type="text/css" href="css/css_funcoes_01.css">  
+     <link rel="stylesheet" type="text/css" href="css/botao.css">  
+<style>
+    #txt{
+        font-size: 25px; 
+		margin-top: -2em; 
+		align-text:justify; 
+		display: flex;
+		position: static; 
+	}
+</style>
+</head>
+<!-- Corpo da página -->
+<body>
+    <div> 
+       <img id="image" src="img/logo0.png">
+		   <div id="menu">
+			    <ul id="estilo">
+			        <li> PRONTUÁRIO DIGITAL </li>
+			    </ul>
+            </div>
+	</div>
+	<div>
+<form method="POST" action="update.php">		   
+	<table id="table">
+		<tr> 
+		   <th>
+		        <h1 class="titulo1">
+			        <font color="navy">
+				        <b>ALTERAR TABELA ATENDENTE:</b>
+					</font>
+			    </h1>	
+		   </th>
+		   <td>
+		        <img class="image2" src="img/icremedio.png">
+		   </td>		   
+		   <td>
+		        <img class="image3" src="img/iconemedico.png">
+		   </td>
+		</tr>
+	    <tr> 
+	     	<td> 
+		        <p id="txt">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				Edite os dados da tabela: </p>
+			</td>
+	    </tr>	
+	    <tr>
+		    <td>
+				<div id="style">	
+					<br><label>ID:</label>
+					<input type="number" name="updateid" value=""><br>
+					<label><br>
+						Nome do Atendente:<br>
+					</label>
+					<input type="text" name="nome"><br>
+					<br>
+					<label>
+						CPF Atendente:<br>
+					</label>				     							
+					<input type="text" name="cpf"><br>
+					<br>		
+		     	    <!--<button class="button" type="submit" name="update"> Alterar </button><br><br-->
+			        <button class="button" type="submit" name="update"> Alterar </button><br><br>
+				</div>
+		    </td>
+		</tr>
+</form>		
+	</table>
+	<div> 
+		<iframe style = "border-bottom:#ADD8E6; border-top:0px" scrolling = "no" src = "" width="100%" height = "70" allowfullscreen>
+	    </iframe>
+        <div>
+	        <a class="botao" href="view.php" target="_parent"> ⇜ Voltar</a> 
+        </div>
+	</div>   
+  </body>
+</html>

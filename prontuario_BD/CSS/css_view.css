@@ -1,0 +1,106 @@
+#menu{
+    width: 100%;
+	margin-top: 0 auto; /*definir a margin*/
+	position: relative; /*o conteudo da página se ajusta o tamanho do navegador*/
+	top: -1em;   /*ficar ajustavél até o topo da margem da página*/
+	right: 0; /*Ajustar a posição do background-color até a esquerda */
+	background: black;	
+	border-top: 0px solid blue; /*grosura da borda, forma da borda, cor*/
+	border-radius: 2px; /*forma da borda */
+    box-shadow: 1px 2px 5px 0px blue; 
+	/*sobra da caixa para o lado direito, sombra da caixa para baixo, 
+	sombra embaçada em volta da caixa, intensidade da cor da sombra, cor da sombra */
+	padding: 20px 1px; /*altura e largura*/
+}
+
+body {
+    display:block;
+	width:100%; 
+	height:100%; /*altura*/
+	padding: 10px 0px; 
+	/*margin-top: 0 auto;*/
+ 	background-color: #ADD8E6;
+	margin:0 auto;
+	padding: 20px 0px; 	
+	font-family: Arial; /*nome da fonte*/
+    position: static;
+
+}
+
+#image{
+	width: 100%;  /*pega a largura total da página*/
+	height: 220px;  /*aumenta a altua da imagem*/
+	margin-top: 0 auto;
+	margin-top: -5em;  
+    position: relative;	
+}
+
+#table{
+	float:center;
+	margin: 0 auto; 
+	width: 65% ;
+	height: 750px; /*altura da tabela*/
+	background-color: #EEE;
+    margin-top: -2em; 
+	
+	table-layout: relative; 
+	display: static;
+	
+	text-align: justify; /*tudo que estiver dentro do table vai estar alinhado*/
+	font-size: 20px; /*tamanho do texto*/
+	border-radius: 2px; /*forma da borda curvatua */
+    box-shadow: 1px 1px 4px 0px green; 
+	/*sobra da caixa para o lado direito, sombra da caixa para baixo, 
+	sombra embaçada em volta da caixa, intensidade da cor da sombra, cor da sombra */
+}
+
+
+#estilo li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+#estilo li{
+	margin-top: -25px; 
+	list-style: none; /*Não aparece que é lista*/
+	float: left; /*posiciona os textos na esquerda*/
+	position: relative;
+    padding: 6px 20px; /* direciona o que está escrito para baixo,
+	direciona para o lado e dar espaçamento entre o
+	que está escrito dentro do li*/
+	font-family: Arial Rounded MT; /*nome da fonte*/
+    color: white;
+	font-style: italic; /*estilo da fonte*/
+    font-size: 28px; /*tamanho da letra*/
+	text-shadow: 1px 0px 5px Blue; 
+	/*sombra do texto para esquerda, sombra do texto para cima, grossura do texto, cor */
+} 
+
+
+.botao{
+ font:bold 17px "Courier New", Courier, monospace;
+ font-style: normal; 
+ color: white; /*COR DA LETRA*/
+ background:BLACK; /*COR DO BOTAO*/
+ border:2px solid #6959CD; /*TAMANHO DA BORDA, POSICAO, COR*/
+ text-shadow:1px 1px 1px white; /*SOMBRA DO TEXTO 
+ - POSIÇÃO DE INCLINAÇÃO, APROXIMIDADE DE CIMA PARA BAIXO, EMBAÇAMENTO, COR*/ 
+ border-radius:90px 15px 90px 15px;
+ box-shadow:6px 5px 10px #0000CD;  /*sombra azul*/
+
+width: 130px; /*comprimento do botão*/
+padding: 17px 17px; /*altura e largura do botão*/
+cursor: pointer;
+margin:0 auto;/*posição da margem do botão*/
+top: auto; 
+text-decoration:none;  /*tirar efeito do sublinhado de link*/
+display: block; 
+
+}
+
+
+.botao:active{
+cursor:pointer;
+position:relative;
+margin:0 auto;
+top: 0 auto; /*ação da posição quando o botão é abertado,
+ que varia em relação ao tamanho da margem*/
+margin-top: 0px; 
+}

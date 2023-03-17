@@ -1,0 +1,82 @@
+#style{
+   font-size: 20px;
+   font-weight:bold;
+   border: 2px solid blue;
+   border-radius:15px;
+   left: 25px;
+   width:320px;
+   height:280px;
+   background-color: lightblue;
+   margin: 0 auto;
+   margin-top: -5em; /*definir a margin do texto*/
+   position: static; /*o texto é relativo a posiçao especificada*/
+   text-align:center;
+
+}
+
+.image2{
+	width: 115px;
+	height: 120px;
+	left: 15%;
+	margin: 0 auto;
+	margin-top: 0 auto; /*definir a margin do texto*/
+	position: relative; /*o texto é relativo a posiçao especificada*/
+	table-layout: absolute; /*tamanho fixo*/
+    text-align: justify; /*se alinha conforme o tamanho especificado*/
+}
+
+.image3{
+	width: 135px;
+	height: 135px;
+	left: 5%;	
+	margin: 0 auto;
+	margin-top: 0 auto;
+	position: relative; 
+	table-layout: absolute; 
+    text-align: justify;
+}
+
+.imgicon2{
+	right: 50px;
+	width: 80px;
+	height: 145px;
+	margin: 0 auto;
+	margin-top: 25px; /*definir a margin do texto*/
+	position: left; /*o texto é relativo a posiçao especificada*/
+}
+
+.imgicon{
+	right: 100px;
+	width: 150px;
+	height: 145px;
+	margin: 0 auto;
+	margin-top: 25px; /*definir a margin do texto*/
+	position: relative; /*o texto é relativo a posiçao especificada*/
+}
+
+.titulo1{ 
+	left:10%;
+	margin: 0 auto;
+	margin-top: -10em auto; /*definir a margin do texto*/
+	position: static; 
+    text-align: justify; 
+	table-layout: static; 
+}
+
+.titulo2{ 
+	left: 5%;
+	margin: 0 auto;
+	margin-top: 0px; /*definir a margin do texto*/
+	position: relative; 
+    text-align: justify; 
+	table-layout: static; 
+}
+
+.p1{ 
+   right: 100%;
+   margin: 0 auto;
+   margin-top: 5em; /*definir a margin do texto*/
+   position: relative; /*o texto é relativo a posiçao especificada*/
+   text-align:justify;
+   table-layout: relative; /*tamanho fixo*/
+}

@@ -1,0 +1,71 @@
+.botao{
+ font:bold 17px "Courier New", Courier, monospace;
+ font-style: normal; 
+ color:#ffffff; /*COR DA LETRA*/
+ background:BLACK; /*COR DO BOTAO*/
+ border:2px solid #6959CD; /*TAMANHO DA BORDA, POSICAO, COR*/
+ text-shadow:1px 2px 2px BLUE; /*SOMBRA DO TEXTO 
+ - POSIÇÃO DE INCLINAÇÃO, APROXIMIDADE DE CIMA PARA BAIXO, EMBAÇAMENTO, COR*/ 
+ border-radius:90px 15px 90px 15px;
+ box-shadow:6px 5px 10px #0000CD;  /*sombra azul*/
+ /*-moz-box-shadow:6px 5px 10px #0000CD;
+ -webkit-box-shadow:6px 5px 10px #0000CD;
+ -moz-border-radius:90px 15px 90px 15px;
+ -webkit-border-radius:90px 15px 90px 15px;*/
+width: 105px; /*comprimento do botão*/
+padding: 17px 17px; /*altura e largura do botão*/
+cursor: pointer;
+margin:0 auto;/*posição da margem do botão*/
+top: auto; 
+text-decoration:none; /*tirar efeito do sublinhado de link*/
+display: block; 
+
+}
+
+.botao:active{
+cursor:pointer;
+position:relative;
+margin:0 auto;
+top: 0 auto; /*ação da posição quando o botão é abertado,
+ que varia em relação ao tamanho da margem*/
+margin-top: 0px; 
+}
+
+.button
+{
+    text-align:center;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	padding: 15px 20px;
+	border: 1px solid rgb(115, 221, 216);
+	border-radius: 23px;	
+	background: -moz-linear-gradient(
+		top,
+		#b0c1f7 4%,
+		#c2f8e3 25%,
+		#a8a4a3);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#b0c1f7),
+		color-stop(0.25, #c2f8e3),
+		to(#766fd2));
+	-moz-border-radius: 21px;
+	-webkit-border-radius: 23px;
+
+
+	-moz-box-shadow:
+		3px -3px 61px rgb(143, 226, 232),
+		inset 0px 0px 17px rgba(2, 130, 181, 0.7);
+	-webkit-box-shadow:
+		3px -3px 61px rgb(143, 226, 232),
+		inset 0px 0px 17px rgba(2, 130, 181, 0.7);
+	box-shadow:
+		3px -3px 61px rgb(143, 226, 232),
+		inset 0px 0px 17px rgba(2, 130, 181, 0.7);
+	text-shadow:
+		4px -6px 4px rgb(63, 63, 63),
+		0px 0px 0px rgb(63, 63, 63),
+}
+
